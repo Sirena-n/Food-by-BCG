@@ -1,0 +1,65 @@
+.bannerWrapper{
+    background: url('/public/images/bg.png') center/cover no-repeat;
+    padding: 20px 0;
+}
+.bannerInner{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* text */
+.info{
+    width: 36%;
+    height: 260px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.days{
+    color: #79B927;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.line{
+    display: inline-block;
+    width: 70%;
+    height: 0;
+    border: 1px solid #79B927;
+    margin-top: 7px;
+}
+
+.detox{
+    letter-spacing: 0.75em;
+    font-size: 16px;
+}
+.treasure{
+    font-size: 64px;
+    letter-spacing: 5px;
+}
+.text{
+    line-height: 26px;
+}
+/* banner btn */
+.btn{
+    width: fit-content;
+    padding: 10px 45px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+/* product image*/
+.productBox{
+    width: 50%;
+}
+.product{
+    width: 100%;
+    height: 450px;
+}

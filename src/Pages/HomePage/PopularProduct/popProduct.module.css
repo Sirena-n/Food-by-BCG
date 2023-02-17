@@ -1,0 +1,55 @@
+.container{
+    composes: container from '../../../App.css';
+}
+/* Top */
+.popTop{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 90px 0 70px;
+}
+
+.title{
+    font-size: 32px;
+}
+.choice{
+    display: flex;
+    gap: 40px;
+}
+.li{
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.underline{
+    composes: underline from '../../../App.css';
+}
+
+/* cards */
+.cardWrapper{
+    padding: 0 20px;
+}
+.cardInner{
+    display: flex;
+    gap: 10px;
+}
+.img{
+    width: 220px;
+}
+
+/* seeMore */
+.seeMore{
+    display: flex;
+    align-items: center;
+    margin: 60px 0 110px;
+    justify-content: space-between;
+}
+.line{
+    width: 40%;
+    border: 1px solid #79B927;
+}
+.allProduct{
+    cursor: pointer;
+    font-weight: 700;
+    padding: 10px 30px;
+    background-color: transparent;
+}

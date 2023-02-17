@@ -1,0 +1,44 @@
+.wrapper{
+    background-color: #f6f6f6c7;
+    margin-bottom: 150px;
+}
+
+/* top */
+.tabs , .table{
+    display: flex;
+}
+.tabs{
+    width: 1240px;
+    margin: 0 auto;
+    padding: 88px 0 30px;
+    
+    justify-content: space-between;
+}
+.table{
+    gap: 50px;
+    align-items: center;
+}
+.table li{
+    font-size: 18px;
+    font-weight: 700;
+}
+.underline{
+    composes: underline from '../../../App.css';
+}
+.arrow{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.line{
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+/* sets */
+.img{
+    width: 50%;
+}
+.setsInner{
+    display: flex;
+    justify-content: space-between;
+}

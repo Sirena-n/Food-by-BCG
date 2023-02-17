@@ -1,12 +1,15 @@
 .footer{
     background: #1C252E;
+    padding: 50px 0 35px;
+    color: #5B6773;
 }
-.footer-top {
+
+.footer-top , .links {
     display: flex;
 }
+
+
 /* footer top */
-
-
 .footer-top{
     justify-content: space-between;
 }
@@ -14,8 +17,6 @@
     gap: 60px;
 }
 .links a{
-    font-size: 16px;
+    color: #5B6773;
     font-weight: 600;
-    color: #FFFFFF;
-    opacity: 0.3;
 }

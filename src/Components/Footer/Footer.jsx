@@ -23,24 +23,20 @@ const Footer = () => {
                 </div>
                 <div className="footer-mid">
                     <div>
-                        <div>icon <p></p></div>
-                        <div>icon <p></p></div>
-                        <div>icon <p></p></div>
+                        <div>icon <p>info@4ood.ru
+</p></div>
+                        <div>icon <p>+7 926 171 67 66</p></div>
+                        <div>icon <p>Алтуфьевское ш., 27а, Москва, Россия, 129090</p></div>
                     </div>
                     <div>
-                        <img src="" alt="" />
-                        <img src="" alt="" />
-                        <img src="" alt="" />
+                        <img src="/images/Vector.png" alt="" />
+                        <img src="/images/Vector (1).png" alt="" />
+                        <img src="/images/Vector (2).png" alt="" />
                     </div>
                 </div>
                 <div className="footer-btm">
-                    <p></p>
-                    <div>
-                        <img src="" alt="" />
-                        <img src="" alt="" />
-                        <img src="" alt="" />
-                        <img src="" alt="" />
-                    </div>
+                    <p>©2022, All right reserved.</p>
+                    
                 </div>
             </div>
         </footer>
