@@ -1,0 +1,57 @@
+.container{
+    composes: container from '../../App.css';
+    display: flex;
+}
+
+ .links ,
+  .icons ,
+   .social ,
+    .RuEn  {
+    display: flex;
+}
+
+/* header top */
+.top{
+    background-color: #F6F6F6;
+    padding: 7px 0;
+}
+.top .container{
+    justify-content: end;
+    align-items: center;
+    gap: 110px;
+}
+.social{
+    gap: 18px;
+}
+.RuEn{
+    gap: 11px;
+}
+
+
+/* header btm */
+.bottom{
+    padding: 30px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.bottom .container{
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.logo{
+    width: 130px;
+    height: 63px;
+}
+.links{
+    gap: 48px;
+}
+.links a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #1C252E;
+}
+.tel p{
+    font-weight: 700;
+}
+.icons{
+    gap: 20px;
+}
