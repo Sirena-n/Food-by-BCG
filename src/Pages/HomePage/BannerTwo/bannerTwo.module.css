@@ -1,0 +1,51 @@
+.wrapper{
+    z-index: 10;
+    position: relative;
+}
+.container{
+    composes: container from '../../../App.css';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.posts{
+    width: 50%;
+    z-index: 10;
+}
+.banner{
+    width: 46%;
+    height: 500px;
+}
+
+.sTitle{
+    font-size: 16px;
+    letter-spacing: 0.74em;
+}
+.title{
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 1.3em;
+    letter-spacing: 0.1em;
+}
+.posts p{
+    line-height: 26px;
+    margin-bottom: 45px;
+}
+.btn{
+    color: black;
+    font-weight: 600;
+    padding: 10px 30px ;
+    border: 2px solid black;
+}
+.bgText{
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    opacity: 0.2;
+    font-size: 230px;
+    font-weight: 600;
+    position: absolute;
+    color: #5B677366;
+    letter-spacing: 15px;
+    font-variant: small-caps;
+}

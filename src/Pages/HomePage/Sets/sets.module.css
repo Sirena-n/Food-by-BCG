@@ -35,10 +35,8 @@
 }
 
 /* sets */
-.img{
-    width: 50%;
-}
 .setsInner{
+    gap: 40px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }

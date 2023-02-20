@@ -1,0 +1,46 @@
+.container{
+    composes: container from '../../App.css';
+}
+.footer{
+    color: #5B6773;
+    padding: 50px 0 35px;
+    background: #1C252E;
+}
+
+.top , .links , .middle , .info {
+    display: flex;
+    align-items: center;
+}
+
+
+/* top */
+.top{
+    justify-content: space-between;
+}
+.links{
+    gap: 60px;
+}
+.links a{
+    color: #5B6773;
+    font-weight: 600;
+}
+
+/* middle */
+.middle{
+    gap: 70px;
+    margin: 40px 0;
+    justify-content: end;
+}
+.info{
+    gap: 55px;
+}
+.info p{
+    gap: 8px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+.socialItems{
+    gap: 15px;
+    display: flex;
+}

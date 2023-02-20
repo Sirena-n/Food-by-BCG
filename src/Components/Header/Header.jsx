@@ -16,8 +16,8 @@ const Header = () => {
                         <img src="/images/Vector (2).png" alt="" />
                     </div>
                     <div className={headerCss.RuEn}>
-                        <button>Ru</button>
-                        <button>En</button>
+                        <button type='button' className={headerCss.Ru}>RU</button>
+                        <button type='button' className={headerCss.En}>EN</button>
                     </div>
                 </div>
             </div>

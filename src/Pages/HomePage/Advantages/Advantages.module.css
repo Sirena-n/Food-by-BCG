@@ -1,0 +1,58 @@
+.container{
+    composes: container from '../../../App.css';
+}
+.title{
+    font-size: 28px;
+}
+.wrapper{
+    display: flex;
+    height: 370px;
+    margin: 35px 0 120px;
+    align-items: center;
+    gap: 25px;
+}
+
+.logoInner{
+    margin-top: 3px;
+    position: relative;
+}
+.logo{
+    width: 370px;
+    height: 100%;
+}
+.logoName{
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    width: 170px;
+    position: absolute;
+    transform: translate(-50% , -50%);
+}
+
+
+.itemInner{
+    height: 100%;
+    display: grid;
+    padding: 40px 68px 0;
+    background-color: #F5F5F5;
+    grid-template-columns: 1fr 1fr;
+}
+.item{
+    display: flex;
+    align-items: center;
+}
+.itemImg{
+    height: 60px;
+    align-self: flex-start;
+}
+.posts{
+    margin-bottom: 22px;
+}
+.itemTitle{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.item p{
+    line-height: 26px;
+}

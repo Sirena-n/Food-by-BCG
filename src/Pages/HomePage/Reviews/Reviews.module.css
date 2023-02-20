@@ -1,0 +1,36 @@
+.container{
+    composes: container from '../../../App.css';
+    margin-bottom: 100px;
+}
+.item{
+    width: 400px;
+    height: 340px;
+    display: grid;
+    margin-top: 45px;
+    grid-auto-rows: 30px 1fr 20px 1fr;
+}
+.quotes{
+    width: 20px;
+}
+.discription{
+    line-height: 26px;
+}
+.line{
+    height: 3px;
+    border: 3px solid #79B927;
+}
+.profileInner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.profileInner h4{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.prof{
+    font-size: 14px;
+    font-weight: 600;
+    color: #C4C4C4;
+    line-height: 30px;
+}
