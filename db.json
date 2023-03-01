@@ -1,5 +1,373 @@
 {
-    "reviews": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "title": "Sorbent + Antifungal",
+      "code": 333794275,
+      "set": "Detox набор",
+      "price": 790,
+      "weight": "35 грамм",
+      "secondTitle": "Комплекс добавок",
+      "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
+      "stock": true,
+      "img": "/images/photo (1).png",
+      "status": true,
+      "reviews": [
+        {
+          "id":1,
+          "name": "",
+          "discription": "",
+          "rating": ""
+        },
+        {
+          "id":2,
+          "name": "",
+          "discription": "",
+          "rating": ""
+        },
+        {
+          "id":3,
+          "name": "",
+          "discription": "",
+          "rating": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Sorbent + Antifungal",
+      "code": 333794275,
+      "set": "Detox набор",
+      "price": 790,
+      "weight": "35 грамм",
+      "secondTitle": "Комплекс добавок",
+      "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
+      "stock": true,
+      "img": "/images/photo (1).png",
+      "status": true,
+      "reviews": [
+        {
+          "name": "",
+          "discription": "",
+          "rating": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Sorbent + Antifungal",
+      "code": 333794275,
+      "set": "Detox набор",
+      "price": 790,
+      "weight": "35 грамм",
+      "secondTitle": "Комплекс добавок",
+      "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
+      "stock": true,
+      "img": "/images/photo (1).png",
+      "status": true,
+      "reviews": [
+        {
+          "name": "",
+          "discription": "",
+          "rating": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Sorbent + Antifungal",
+      "code": 333794275,
+      "set": "Detox набор",
+      "price": 790,
+      "weight": "35 грамм",
+      "secondTitle": "Комплекс добавок",
+      "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
+      "stock": true,
+      "img": "/images/photo (1).png",
+      "status": true,
+      "reviews": [
+        {
+          "name": "",
+          "discription": "",
+          "rating": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Sorbent + Antifungal",
+      "code": 333794275,
+      "set": "Detox набор",
+      "price": 790,
+      "weight": "35 грамм",
+      "secondTitle": "Комплекс добавок",
+      "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
+      "stock": true,
+      "img": "/images/photo (1).png",
+      "status": true,
+      "reviews": [
+        {
+          "name": "",
+          "discription": "",
+          "rating": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Sorbent + Antifungal",
+      "code": 333794275,
+      "set": "Detox набор",
+      "price": 790,
+      "weight": "35 грамм",
+      "secondTitle": "Комплекс добавок",
+      "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
+      "stock": true,
+      "img": "/images/photo (1).png",
+      "status": true,
+      "reviews": [
+        {
+          "name": "",
+          "discription": "",
+          "rating": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Sorbent + Antifungal",
+      "code": 333794275,
+      "set": "Detox набор",
+      "price": 790,
+      "weight": "35 грамм",
+      "secondTitle": "Комплекс добавок",
+      "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
+      "stock": true,
+      "img": "/images/photo (1).png",
+      "status": true,
+      "reviews": [
+        {
+          "name": "",
+          "discription": "",
+          "rating": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Sorbent + Antifungal",
+      "code": 333794275,
+      "set": "Detox набор",
+      "price": 790,
+      "weight": "35 грамм",
+      "secondTitle": "Комплекс добавок",
+      "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
+      "stock": true,
+      "img": "/images/photo (1).png",
+      "status": true,
+      "reviews": [
+        {
+          "name": "",
+          "discription": "",
+          "rating": ""
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 3,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "paymentAsks": [
+    {
+      "id":1,
+      "title": "Как осуществляется доставка до пункта выдачи?",
+      "lists": [
+        {
+          "id":1 ,
+          "list": "Срок резерва – 2 дня от планируемой даты выдачи."
+        },
+        {
+          "id":2 ,
+          "list": "Дата выдачи указывается при подтверждении заказа."
+        },
+        {
+          "id":3 ,
+          "list": "Доступна оплата подарочным сертификатом."
+        },
+        {
+          "id":4 ,
+          "list": "Вы можете оплатить заказ в магазине картой или наличными."
+        }
+        ,{
+          "id":5 ,
+          "list": "Вы можете отказаться от части заказа."
+        },
+        {
+          "id":6 ,
+          "list": "Доступна отправка наложенным платежом."
+        }
+      ]
+    },
+    {
+      "id":2,
+      "title": "Как осуществляется доставка до пункта выдачи?",
+      "lists": [
+        {
+          "id":1 ,
+          "list": "Срок резерва – 2 дня от планируемой даты выдачи."
+        },
+        {
+          "id":2 ,
+          "list": "Дата выдачи указывается при подтверждении заказа."
+        },
+        {
+          "id":3 ,
+          "list": "Доступна оплата подарочным сертификатом."
+        },
+        {
+          "id":4 ,
+          "list": "Вы можете оплатить заказ в магазине картой или наличными."
+        }
+        ,{
+          "id":5 ,
+          "list": "Вы можете отказаться от части заказа."
+        },
+        {
+          "id":6 ,
+          "list": "Доступна отправка наложенным платежом."
+        }
+      ]
+    },
+    {
+      "id":3,
+      "title": "Как осуществляется доставка до пункта выдачи?",
+      "lists": [
+        {
+          "id":1 ,
+          "list": "Срок резерва – 2 дня от планируемой даты выдачи."
+        },
+        {
+          "id":2 ,
+          "list": "Дата выдачи указывается при подтверждении заказа."
+        },
+        {
+          "id":3 ,
+          "list": "Доступна оплата подарочным сертификатом."
+        },
+        {
+          "id":4 ,
+          "list": "Вы можете оплатить заказ в магазине картой или наличными."
+        }
+        ,{
+          "id":5 ,
+          "list": "Вы можете отказаться от части заказа."
+        },
+        {
+          "id":6 ,
+          "list": "Доступна отправка наложенным платежом."
+        }
+      ]
+    },
+    {
+      "id":4,
+      "title": "Как осуществляется доставка до пункта выдачи?",
+      "lists": [
+        {
+          "id":1 ,
+          "list": "Срок резерва – 2 дня от планируемой даты выдачи."
+        },
+        {
+          "id":2 ,
+          "list": "Дата выдачи указывается при подтверждении заказа."
+        },
+        {
+          "id":3 ,
+          "list": "Доступна оплата подарочным сертификатом."
+        },
+        {
+          "id":4 ,
+          "list": "Вы можете оплатить заказ в магазине картой или наличными."
+        }
+        ,{
+          "id":5 ,
+          "list": "Вы можете отказаться от части заказа."
+        },
+        {
+          "id":6 ,
+          "list": "Доступна отправка наложенным платежом."
+        }
+      ]
+    },
+    {
+      "id":5,
+      "title": "Как осуществляется доставка до пункта выдачи?",
+      "lists": [
+        {
+          "id":1 ,
+          "list": "Срок резерва – 2 дня от планируемой даты выдачи."
+        },
+        {
+          "id":2 ,
+          "list": "Дата выдачи указывается при подтверждении заказа."
+        },
+        {
+          "id":3 ,
+          "list": "Доступна оплата подарочным сертификатом."
+        },
+        {
+          "id":4 ,
+          "list": "Вы можете оплатить заказ в магазине картой или наличными."
+        }
+        ,{
+          "id":5 ,
+          "list": "Вы можете отказаться от части заказа."
+        },
+        {
+          "id":6 ,
+          "list": "Доступна отправка наложенным платежом."
+        }
+      ]
+    }
+  ],
+  "questionsAnswers": [
+    {
+      "id":1,
+      "question": "Я заказал товар, но он не пришел. Что делать?",
+      "discription": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff." 
+    },
+    {
+      "id":2,
+      "question": "Могу я вернуть товар?",
+      "discription": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff."
+    },
+    {
+      "id":3,
+      "question": "Какие есть документы и сертификаты, подтверждающие качество продукции 4oоd?",
+      "discription": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff."
+    },
+    {
+      "id":4,
+      "question": "Я заказал товар, но он не пришел. Что делать?",
+      "discription": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff."
+    },
+    {
+      "id":5,
+      "question": "Какие есть документы и сертификаты, подтверждающие качество продукции 4oоd?",
+      "discription": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff."
+    }
+  ]
 }

@@ -21,9 +21,13 @@
 .table li{
     font-size: 18px;
     font-weight: 700;
+    padding-bottom: 10px;
 }
 .underline{
-    composes: underline from '../../../App.css';
+    width: 100%;
+    display: block;
+    margin-top: 2px;
+    border-bottom: 3px solid #79B927;
 }
 .arrow{
     border: 1px solid black;

@@ -1,0 +1,27 @@
+.itemWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.item img{
+    width: 200px;
+}
+.itemTotal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: fit-content;
+    padding: 40px 20px;
+    background-color: #F5F5F5;
+}
+
+/* deliverySide */
+.deliverySide{
+    background-color: #FFFFFF;
+    padding: 16px 20px;
+    margin-top: 20px;
+
+}
+.blackText{
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+}

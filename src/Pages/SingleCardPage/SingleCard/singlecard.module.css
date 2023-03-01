@@ -1,0 +1,88 @@
+.itemInner{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+.imgSide{
+    width: 50%;
+    position: relative;
+}
+.itemImg{
+    width: 100%;
+}
+.status{
+    position: absolute;
+    top: 0;
+    right: 0;
+    composes: status from '../../../Pages/HomePage/PopularProduct/popProduct.module.css';
+}
+
+/* block 1*/
+.item{
+    width: 50%;
+}
+.stock{
+    gap: 5px;
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+    color: #79B927;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.setName{
+    font-size: 45px;
+    font-weight: 600;
+}
+.greyString{
+    font-size: 12px;
+    color: #88929E;
+    margin-top: 20px;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    margin: 10px 0 30px;
+    background-color: #D9D9D9;
+}
+
+/* block 2*/
+.secondTitle{
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+.discription{
+    width: 76%;
+    font-weight: 400;
+    color: #1C252E;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.Tools{
+    gap: 30px;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.price{
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+.buyItem{
+    cursor: pointer;
+    color: white;
+    padding: 10px 40px;
+    font-size: 12px;
+    background-color: #79B927;
+}
+.interestBtn{
+    color: #1C252E;
+}
+
+/* reviews */

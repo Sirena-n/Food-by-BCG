@@ -1,0 +1,16 @@
+.wrapper{
+    display: flex;
+}
+.textSide{
+    margin: auto;
+    width: 26%;
+}
+.textSide h2{
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.wrapper img{
+    width: 60%;
+    height: 100%;
+}

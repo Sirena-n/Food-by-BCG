@@ -1,0 +1,36 @@
+.Wrapper{
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    padding: 180px 0 130px;
+    background: url('/public/images/image 10 (1).png') center/cover no-repeat;
+}
+.Wrapper h3{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.68em;
+}
+.Wrapper h2{
+    font-size: 64px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    letter-spacing: 0.1em;
+}
+.form{
+    width: 20%;
+    display: flex;
+    row-gap: 15px;
+    flex-direction: column;
+}
+.form input{
+    outline: none;
+    padding: 15px 0;
+    text-align: center;
+}
+.btn{
+    color: white;
+    padding: 15px 0;
+    border: 2px solid white;
+    background-color: transparent;
+}

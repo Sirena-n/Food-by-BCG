@@ -1,3 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+}
 .container{
   width: 1240px;
   margin: 0 auto;
@@ -5,5 +13,6 @@
 .underline{
   width: 100%;
   display: block;
-  border-bottom: 2px solid #79B927;
+  margin-top: 5px;
+  border-bottom: 3px solid #79B927;
 }

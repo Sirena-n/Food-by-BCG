@@ -1,0 +1,12 @@
+.wrapper{
+    composes: container from '../../App.css';
+}
+.grey{
+    color: #88929E;
+}
+.title{
+    font-size: 14px;
+    font-weight: 700;
+    color: #3f4347;
+    margin: 90px 0 60px;
+}

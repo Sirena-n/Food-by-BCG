@@ -2,6 +2,10 @@
     composes: container from '../../../App.css';
     margin-bottom: 100px;
 }
+.itemWrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
 .item{
     width: 400px;
     height: 340px;

@@ -1,10 +1,22 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import axios from 'axios';
+import React, { useEffect, useState } from 'react';
+import { Link, useParams } from 'react-router-dom';
 import pop from './popProduct.module.css'
+import EastIcon from '@mui/icons-material/East';
 
-const PoplarProduct = () => {
+const PopularProduct = () => {
 
     const [productStatus, setProdStatus] = useState('popular')
+    const [product, setProduct] = useState([])
+
+    useEffect(() => {
+        const apiUrl = `http://localhost:8089/products`
+        axios
+            .get(apiUrl)
+            .then(res => setProduct(res.data))
+    }, [setProduct])
+
+
 
     return (
         <div className={pop.container}>
@@ -16,29 +28,36 @@ const PoplarProduct = () => {
                 </ul>
             </div>
             <div className={pop.cardWrapper}>
-                <div className={pop.card}>
-                    <h3>Detox набор</h3>
-                    <p>35 грамм</p>
-                    <div className={pop.cardInner}>
-                        <Link>
-                            <img className={pop.img} src="/images/cardImg.png" alt="" />
-                        </Link>
+                {product.map((item) => (
+                    <div key={item.id} className={pop.card}>
+                        <div className={pop.cardTop}>
+                            <div>   
+                                <h3>{item.set}</h3>
+                                <p className={pop.weight}>{item.weight}</p>
+                            </div>
 
-                        <div className={pop.cardInfo}>
-                            <p>Sorbent + Antifungal</p>
-                            <p>790₽</p>
+                            {item.status && <p className={pop.status}>TOP</p>}
                         </div>
-                    </div>
-                </div>
-                <div className={pop.seeMore}>
-                    <div className={pop.line}></div>
-                    <button className={pop.allProduct}>Все товары</button>
-                    <div className={pop.line}></div>
-                </div>
+                        <div key={item.id} className={pop.cardInner}>
+                            <Link to={`/single/${item.id}`}>
+                                <img className={pop.img} src={item.img} alt="" />
+                            </Link>
+                            <div className={pop.cardInfo}>
+                                <p className={pop.cardTitle}>{item.title}</p>
+                                <p className={pop.arrow}><EastIcon /></p>
+                                <p className={pop.price}>{item.price}₽</p>
+                            </div>
+                        </div>
+                    </div >
+                ))}
             </div>
-
+            <div className={pop.seeMore}>
+                <div className={pop.line}></div>
+                <button className={pop.allProduct}>Все товары</button>
+                <div className={pop.line}></div>
+            </div>
         </div>
     );
 };
 
-export default PoplarProduct;
+export default PopularProduct;
