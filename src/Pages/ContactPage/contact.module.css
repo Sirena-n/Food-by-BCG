@@ -1,5 +1,5 @@
-.titleBox{
-    background-color: #F6F6F6;
+.titleBlock{
+    composes: titleBlock from '../../App.css';
 }
 .titleInner{
     composes: container from '../../App.css';

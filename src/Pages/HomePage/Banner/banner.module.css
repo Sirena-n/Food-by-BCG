@@ -1,6 +1,7 @@
 .bannerWrapper{
     background: url('/public/images/bg.png') center/cover no-repeat;
     padding: 20px 0;
+    margin-top: 153px;
 }
 .bannerInner{
     width: 1100px;

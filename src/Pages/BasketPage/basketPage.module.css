@@ -1,14 +1,12 @@
-.basketWrapper{
+.titleBlock{
     composes: container from '../../App.css';
+    margin-top: 159px;
 }
-.greyTitle{
-    color: #5B6773;
+.coordination{
+    composes: coordination from '../../App.css';
 }
-.title{
-    font-size: 14px;
-}
-.secondTitle{
-    font-size: 32px;
+.pageTitle{
+    composes: pageTitle from '../../App.css';
 }
 .road{
     display: flex;
@@ -27,9 +25,9 @@
 }
 .checkout{
     display: flex;
-    margin-top: 80px;
     column-gap: 35px;
     align-items: center;
+    margin: 80px 0 200px;
     justify-content: center;
 }
 .btn{

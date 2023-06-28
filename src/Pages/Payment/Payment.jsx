@@ -22,12 +22,15 @@ const Payment = () => {
         setState(i)
     }
 
+    console.log(8 && 4);
+    console.log(8 || 4);
+
     return (
         <>
-            <div className={a.titleBox}>
+            <div className={a.titleBlock}>
                 <div className={a.titleInner}>
-                    <p className={a.greyString}>Главная / <span className={a.blackString}>Q&A</span></p>
-                    <h2 className={a.title}>Оплата и доставка</h2>
+                    <p className={a.coordination}>Главная / <span>Q&A</span></p>
+                    <h2 className={a.pageTitle}>Оплата и доставка</h2>
                 </div>
             </div>
 
@@ -51,7 +54,7 @@ const Payment = () => {
                     ))
                 }
             </div>
-            <GetConsultation/>
+            <GetConsultation />
         </>
 
     );

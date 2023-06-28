@@ -12,6 +12,8 @@
       "stock": true,
       "img": "/images/photo (1).png",
       "status": true,
+      "sale": false,
+      "viewed": false,
       "reviews": [
         {
           "id":1,
@@ -44,7 +46,9 @@
       "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
       "stock": true,
       "img": "/images/photo (1).png",
-      "status": true,
+      "status": false,
+      "sale": true,
+      "viewed": false,
       "reviews": [
         {
           "name": "",
@@ -65,6 +69,8 @@
       "stock": true,
       "img": "/images/photo (1).png",
       "status": true,
+      "sale": false,
+      "viewed": false,
       "reviews": [
         {
           "name": "",
@@ -82,9 +88,11 @@
       "weight": "35 грамм",
       "secondTitle": "Комплекс добавок",
       "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
-      "stock": true,
+      "stock": false,
       "img": "/images/photo (1).png",
-      "status": true,
+      "status": false,
+      "sale": true,
+      "viewed": false,
       "reviews": [
         {
           "name": "",
@@ -105,6 +113,8 @@
       "stock": true,
       "img": "/images/photo (1).png",
       "status": true,
+      "sale": false,
+      "viewed": false,
       "reviews": [
         {
           "name": "",
@@ -118,13 +128,15 @@
       "title": "Sorbent + Antifungal",
       "code": 333794275,
       "set": "Detox набор",
-      "price": 790,
+      "price": 760,
       "weight": "35 грамм",
       "secondTitle": "Комплекс добавок",
       "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
       "stock": true,
       "img": "/images/photo (1).png",
-      "status": true,
+      "status": false,
+      "sale": true,
+      "viewed": false,
       "reviews": [
         {
           "name": "",
@@ -145,6 +157,8 @@
       "stock": true,
       "img": "/images/photo (1).png",
       "status": true,
+      "sale": false,
+      "viewed": false,
       "reviews": [
         {
           "name": "",
@@ -165,6 +179,338 @@
       "stock": true,
       "img": "/images/photo (1).png",
       "status": true,
+      "sale": false,
+      "viewed": false,
+      "reviews": [
+        {
+          "name": "",
+          "discription": "",
+          "rating": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Sorbent + Antifungal",
+      "code": 333794275,
+      "set": "Detox набор",
+      "price": 540,
+      "weight": "35 грамм",
+      "secondTitle": "Комплекс добавок",
+      "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
+      "stock": false,
+      "img": "/images/photo (1).png",
+      "status": true,
+      "sale": false,
+      "viewed": false,
+      "reviews": [
+        {
+          "name": "",
+          "discription": "",
+          "rating": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Sorbent + Antifungal",
+      "code": 333794275,
+      "set": "Detox набор",
+      "price": 790,
+      "weight": "35 грамм",
+      "secondTitle": "Комплекс добавок",
+      "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
+      "stock": true,
+      "img": "/images/photo (1).png",
+      "status": false,
+      "sale": true,
+      "viewed": false,
+      "reviews": [
+        {
+          "name": "",
+          "discription": "",
+          "rating": ""
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Sorbent + Antifungal",
+      "code": 333794275,
+      "set": "Detox набор",
+      "price": 790,
+      "weight": "35 грамм",
+      "secondTitle": "Комплекс добавок",
+      "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
+      "stock": true,
+      "img": "/images/photo (1).png",
+      "status": true,
+      "sale": false,
+      "viewed": false,
+      "reviews": [
+        {
+          "name": "",
+          "discription": "",
+          "rating": ""
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Sorbent + Antifungal",
+      "code": 333794275,
+      "set": "Detox набор",
+      "price": 790,
+      "weight": "35 грамм",
+      "secondTitle": "Комплекс добавок",
+      "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
+      "stock": true,
+      "img": "/images/photo (1).png",
+      "status": true,
+      "sale": false,
+      "viewed": false,
+      "reviews": [
+        {
+          "name": "",
+          "discription": "",
+          "rating": ""
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Sorbent + Antifungal",
+      "code": 333794275,
+      "set": "Detox набор",
+      "price": 790,
+      "weight": "35 грамм",
+      "secondTitle": "Комплекс добавок",
+      "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
+      "stock": true,
+      "img": "/images/photo (1).png",
+      "status": false,
+      "sale": true,
+      "viewed": false,
+      "reviews": [
+        {
+          "name": "",
+          "discription": "",
+          "rating": ""
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Sorbent + Antifungal",
+      "code": 333794275,
+      "set": "Detox набор",
+      "price": 790,
+      "weight": "35 грамм",
+      "secondTitle": "Комплекс добавок",
+      "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
+      "stock": true,
+      "img": "/images/photo (1).png",
+      "status": true,
+      "sale": false,
+      "viewed": false,
+      "reviews": [
+        {
+          "name": "",
+          "discription": "",
+          "rating": ""
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Sorbent + Antifungal",
+      "code": 333794275,
+      "set": "Detox набор",
+      "price": 790,
+      "weight": "35 грамм",
+      "secondTitle": "Комплекс добавок",
+      "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
+      "stock": false,
+      "img": "/images/photo (1).png",
+      "status": false,
+      "sale": true,
+      "viewed": false,
+      "reviews": [
+        {
+          "name": "",
+          "discription": "",
+          "rating": ""
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Sorbent + Antifungal",
+      "code": 333794275,
+      "set": "Detox набор",
+      "price": 790,
+      "weight": "35 грамм",
+      "secondTitle": "Комплекс добавок",
+      "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
+      "stock": false,
+      "img": "/images/photo (1).png",
+      "status": false,
+      "sale": true,
+      "viewed": false,
+      "reviews": [
+        {
+          "name": "",
+          "discription": "",
+          "rating": ""
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Sorbent + Antifungal",
+      "code": 333794275,
+      "set": "Detox набор",
+      "price": 790,
+      "weight": "35 грамм",
+      "secondTitle": "Комплекс добавок",
+      "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
+      "stock": true,
+      "img": "/images/photo (1).png",
+      "status": true,
+      "sale": false,
+      "viewed": false,
+      "reviews": [
+        {
+          "name": "",
+          "discription": "",
+          "rating": ""
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Sorbent + Antifungal",
+      "code": 333794275,
+      "set": "Detox набор",
+      "price": 790,
+      "weight": "35 грамм",
+      "secondTitle": "Комплекс добавок",
+      "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
+      "stock": true,
+      "img": "/images/photo (1).png",
+      "status": true,
+      "sale": false,
+      "viewed": false,
+      "reviews": [
+        {
+          "name": "",
+          "discription": "",
+          "rating": ""
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Sorbent + Antifungal",
+      "code": 333794275,
+      "set": "Detox набор",
+      "price": 790,
+      "weight": "35 грамм",
+      "secondTitle": "Комплекс добавок",
+      "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
+      "stock": true,
+      "img": "/images/photo (1).png",
+      "status": false,
+      "sale": true,
+      "viewed": false,
+      "reviews": [
+        {
+          "name": "",
+          "discription": "",
+          "rating": ""
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Sorbent + Antifungal",
+      "code": 333794275,
+      "set": "Detox набор",
+      "price": 790,
+      "weight": "35 грамм",
+      "secondTitle": "Комплекс добавок",
+      "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
+      "stock": true,
+      "img": "/images/photo (1).png",
+      "status": true,
+      "sale": false,
+      "viewed": false,
+      "reviews": [
+        {
+          "name": "",
+          "discription": "",
+          "rating": ""
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Sorbent + Antifungal",
+      "code": 333794275,
+      "set": "Detox набор",
+      "price": 790,
+      "weight": "35 грамм",
+      "secondTitle": "Комплекс добавок",
+      "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
+      "stock": true,
+      "img": "/images/photo (1).png",
+      "status": true,
+      "sale": false,
+      "viewed": false,
+      "reviews": [
+        {
+          "name": "",
+          "discription": "",
+          "rating": ""
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Sorbent + Antifungal",
+      "code": 333794275,
+      "set": "Detox набор",
+      "price": 790,
+      "weight": "35 грамм",
+      "secondTitle": "Комплекс добавок",
+      "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
+      "stock": false,
+      "img": "/images/photo (1).png",
+      "status": false,
+      "sale": true,
+      "viewed": false,
+      "reviews": [
+        {
+          "name": "",
+          "discription": "",
+          "rating": ""
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Sorbent + Antifungal",
+      "code": 333794275,
+      "set": "Detox набор",
+      "price": 790,
+      "weight": "35 грамм",
+      "secondTitle": "Комплекс добавок",
+      "discription": "Для комплексного улучшения физического и ментального здоровья, прививающий правильные привычки.",
+      "stock": true,
+      "img": "/images/photo (1).png",
+      "status": false,
+      "sale": true,
+      "viewed": false,
       "reviews": [
         {
           "name": "",

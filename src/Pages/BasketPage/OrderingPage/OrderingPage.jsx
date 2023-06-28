@@ -4,14 +4,19 @@ import EastIcon from '@mui/icons-material/East';
 import Personal from './PersonalData/Personal';
 import Order from './MyOrder/Order';
 import Address from './Address/Address';
+// import Success from '../successOrder/Success';
+import { useNavigate } from 'react-router-dom';
 
 const OrderingPage = () => {
+
+    const navigate = useNavigate()
+
     return (
         <>
-            <div className={a.titleWrapper}>
+            <div className={a.titleBlock}>
                 <div className={a.titleInner}>
-                    <h4 className={a.greyTitle}>Главная / <span className={a.blackTitle}>Корзина</span></h4>
-                    <h2>Оформление заказа</h2>
+                    <p className={a.coordination}>Главная / <span>Корзина</span></p>
+                    <h2 className={a.pageTitle}>Оформление заказа</h2>
                     <div className={a.road}>
                         <h3>Корзина</h3>
                         <EastIcon />
@@ -24,7 +29,13 @@ const OrderingPage = () => {
             <div className={a.formsWrapper}>
                 <Personal />
                 <Order />
-                <Address/>
+                <Address />
+            </div>
+            <div className={a.confirmInner}>
+                <hr className={a.shortLine} />
+                <button onClick={() => navigate('/success')} className={a.confirmBtn}>ПОДТВЕРДИТЬ ЗАКАЗ</button>
+                <button onClick={() => navigate('/basket')} className={a.backBtn}>НАЗАД К СПИСКУ ПОКУПОК</button>
+                <hr className={a.longLine} />
             </div>
         </>
 

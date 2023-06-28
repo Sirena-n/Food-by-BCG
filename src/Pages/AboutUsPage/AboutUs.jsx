@@ -8,16 +8,16 @@ import Who from './WhoWeAre/Who';
 const AboutUs = () => {
     return (
         <>
-            <div className={a.titleBox}>
+            <div className={a.titleBlock}>
                 <div className={a.titleInner}>
-                    <p className={a.greyString}>Главная / <span className={a.blackString}>О нас</span></p>
-                    <h2 className={a.title}>О нас</h2>
+                    <p className={a.coordination}>Главная / <span>О нас</span></p>
+                    <h2 className={a.pageTitle}>О нас</h2>
                 </div>
             </div>
-            <Who/>
-            <Goal/>
-            <Principles/>
-            <GetConsultation/>
+            <Who />
+            <Goal />
+            <Principles />
+            <GetConsultation />
         </>
     );
 };

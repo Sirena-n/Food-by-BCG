@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,13 +6,38 @@
   list-style-type: none;
   font-family: 'Montserrat', sans-serif;
 }
-.container{
+
+.container {
   width: 1240px;
   margin: 0 auto;
 }
-.underline{
-  width: 100%;
-  display: block;
-  margin-top: 5px;
+
+.underlined {
   border-bottom: 3px solid #79B927;
+}
+
+.coordination {
+  font-size: 14px;
+  color: #5B677340;
+  font-weight: 500;
+}
+
+.coordination span {
+  color: black;
+  font-weight: 700;
+}
+
+.pageTitle {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.titleBlock {
+  margin-top: 153px;
+  background-color: #F6F6F6;
+}
+
+.loader {
+  grid-column: 1/4;
+  justify-self: center;
 }

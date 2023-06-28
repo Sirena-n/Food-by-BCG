@@ -1,22 +1,16 @@
-.titleWrapper{
-    padding-top: 80px;
-    background-color: #F6F6F6;
-
+.titleBlock{
+    padding-top: 40px;
+    composes: titleBlock from '../../../App.css';
 }
 .titleInner{
     composes: container from '../../../App.css';
 }
-.greyTitle{
-    font-size: 14px;
-    color: #5B6773;
+.coordination{
+    composes: coordination from '../../../App.css';
 }
-.blackTitle{
-    color: black;
-}
-
-.titleInner h2{
-    font-size: 32;
-    margin: 50px 0;
+.pageTitle{
+    composes: pageTitle from '../../../App.css';
+    margin: 30px 0 ;
 }
 .road {
     display: flex;
@@ -40,4 +34,33 @@
     column-gap: 80px;
     align-items: flex-end;
     margin: 30px 0 100px 285px;
+}
+
+.confirmInner{
+    display: flex;
+    align-items: center;
+    margin-bottom: 200px;
+    justify-content: space-between;
+}
+.confirmInner hr{
+    border: 2px solid #79B927;
+}
+.shortLine{
+    width: 20%;
+}
+.longLine{
+    width: 41%;
+}
+.confirmInner button{
+    color: black;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 10px 20px;
+    background-color: transparent;
+}
+.confirmBtn{
+    border: 3px solid black;
+}
+.backBtn{
+    border: 3px solid #D9D9D9;
 }

@@ -5,7 +5,7 @@ import a from './contact.module.css'
 const Contact = () => {
     return (
         <>
-            <div className={a.titleBox}>
+            <div className={a.titleBlock}>
                 <div className={a.titleInner}>
                     <p className={a.greyString}>Главная / <span className={a.blackString}>Контакты</span></p>
                     <h2 className={a.title}>Контакты</h2>

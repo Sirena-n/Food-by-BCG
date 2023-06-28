@@ -1,0 +1,48 @@
+.titleBlock{
+    composes: titleBlock from '../../App.css';
+}
+.panelInner{
+    composes: container from '../../App.css';
+    padding: 80px 0 20px;
+}
+
+.coordination{
+    composes: coordination from '../../App.css';
+}
+.pageTitle{
+    composes: pageTitle from '../../App.css';
+    margin: 40px 0;
+}
+.filterPanel{
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+
+/* sortSide */
+.sortSide{
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+
+/* delete */
+.deleteAllProduct{
+    display: flex;
+    cursor: pointer;
+    column-gap: 15px;
+    color: #5B677340;
+    align-items: center;
+}
+.deleteAllProduct span{
+    opacity: 0.8;
+    padding: 5px 6px;
+    border-radius: 50%;
+    box-shadow: 0 0 3px #5B6773;
+}
+
+.cardsWrapper{
+    width: 1200px;
+    margin: 40px auto 60px;
+}

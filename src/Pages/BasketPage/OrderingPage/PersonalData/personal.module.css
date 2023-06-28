@@ -11,7 +11,7 @@
     padding: 10px;
     margin-bottom: 14px;
     outline: none;
-    border: 2px solid #D9D9D9;
+    border: 3px solid #D9D9D9;
 }
 .dataForm input::placeholder{
     color: #D9D9D9;

@@ -21,13 +21,6 @@
 .table li{
     font-size: 18px;
     font-weight: 700;
-    padding-bottom: 10px;
-}
-.underline{
-    width: 100%;
-    display: block;
-    margin-top: 2px;
-    border-bottom: 3px solid #79B927;
 }
 .arrow{
     border: 1px solid black;
@@ -43,4 +36,52 @@
     gap: 40px;
     display: flex;
     align-items: center;
+}
+
+/* Treasure */
+.img{
+    width: 50%;
+}
+.info{
+    width: 31%;
+    row-gap: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.info h3{
+    letter-spacing: 0.75em;
+    font-size: 16px;
+}
+.info h2{
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+.price{
+    line-height: 40px;
+    font-size: 24px;
+    color: #5B6773;
+}
+.btns a{
+    display: inline-block;
+    vertical-align: middle;
+}
+.more{
+    height: 40px;
+    color: black;
+    padding: 0 30px;
+    font-weight: 700;
+    line-height: 40px;
+    border: 2px solid black;
+    background-color: transparent;
+}
+.buy{
+    border: none;
+    height: 40px;
+    color: white;
+    padding: 0 30px;
+    line-height: 40px;
+    margin-left: 10px;
+    background-color: #79B927;
 }

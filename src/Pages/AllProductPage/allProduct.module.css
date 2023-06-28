@@ -1,0 +1,44 @@
+.titleBlock{
+    composes: titleBlock from '../../App.css';
+}
+.panelInner{
+    composes: container from '../../App.css';
+    padding: 80px 0 20px;
+}
+
+.coordination{
+    composes: coordination from '../../App.css';
+}
+.pageTitle{
+    composes: pageTitle from '../../App.css';
+    margin: 40px 0;
+}
+.filterPanel{
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+/* filterSide */
+.filterSide{
+    display: flex;
+    column-gap: 40px;
+}
+.filterSide li {
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #5B6773;
+    padding-bottom: 5px;
+}
+
+
+/* sortSide */
+.sortSide{
+    composes: filterSide;
+}
+
+.cardsWrapper{
+    width: 1200px;
+    margin: 40px auto 60px;
+}

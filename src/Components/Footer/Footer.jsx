@@ -1,34 +1,39 @@
-import React from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import a from'./footer.module.css'
+
+import { RouterLinksArr } from '../../Utils/Arrays';
+
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import MapOutlinedIcon from '@mui/icons-material/MapOutlined';
 import WifiCalling3OutlinedIcon from '@mui/icons-material/WifiCalling3Outlined';
 
-const Footer = () => {
+import a from './footer.module.css'
+const Footer = ({handleActiveLink, activeLink}) => {
     return (
         <footer className={a.footer}>
             <div className={a.container}>
                 <div className={a.top}>
-                    <div>
-                        <img className={a.logo} src="./images/image 18.png" alt="" />
-                    </div>
-
+                    <Link to={'/'}>
+                        <img className={a.logo} src="/images/image 18.png" alt="" />
+                    </Link>
                     <ul className={a.links}>
-                        <Link to={'/'}>Главная</Link>
-                        <Link>Товары</Link>
-                        <Link>Q&A</Link>
-                        <Link>Статьи</Link>
-                        <Link>О нас</Link>
-                        <Link>Оплата и доставка</Link>
-                        <Link>Контакты</Link>
+                        {RouterLinksArr.map(el => (
+                            <li key={el.name}>
+                                <Link
+                                    onClick={() => handleActiveLink(el.link)}
+                                    to={el.link}
+                                    className={activeLink === el.link ? 'underlined' : ''}>
+                                    {el.name}
+                                </Link>
+                            </li>
+                        ))}
                     </ul>
                 </div>
                 <div className={a.middle}>
                     <div className={a.info}>
-                        <p><MailOutlineIcon/> info@4ood.ru</p>
-                        <p><WifiCalling3OutlinedIcon/> +7 926 171 67 66</p>
-                        <p><MapOutlinedIcon/> Алтуфьевское ш., 27а, Москва, Россия, 129090</p>
+                        <p><MailOutlineIcon /> info@4ood.ru</p>
+                        <p><WifiCalling3OutlinedIcon /> +7 926 171 67 66</p>
+                        <p><MapOutlinedIcon /> Алтуфьевское ш., 27а, Москва, Россия, 129090</p>
                     </div>
                     <div className={a.socialItems}>
                         <img src="/images/Vector.png" alt="" />

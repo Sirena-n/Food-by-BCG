@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import SingleCard from './SingleCard/SingleCard';
 
+
 const SingleCardPage = () => {
     const {id} = useParams()
     const [appState, setAppState] = useState([])

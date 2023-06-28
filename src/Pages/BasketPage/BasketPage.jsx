@@ -6,9 +6,9 @@ import EastIcon from '@mui/icons-material/East';
 
 const BasketPage = () => {
     return (
-        <div className={a.basketWrapper}>
-            <h3 className={a.title}><span className={a.greyTitle}>Главное /</span>Корзина</h3>
-            <h2 className={a.secondTitle}>Корзина</h2>
+        <div className={a.titleBlock}>
+            <p className={a.coordination}>Главная / <span>Корзина</span></p>
+            <h2 className={a.pageTitle}>Корзина</h2>
             <div className={a.road}>
                 <h3>Корзина</h3>
                 <EastIcon />
